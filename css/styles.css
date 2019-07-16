@@ -94,6 +94,7 @@ header nav ul li a {
 }
 
 .dolce-gallery-item {
+	position: relative;
 	display: inline-block;
 	margin-bottom: 19px;
 	width: 200px;
@@ -103,13 +104,11 @@ header nav ul li a {
 
 .dolce-gallery-item img {
 	width: 100%;
-	-o-object-fit: fill;
 	object-fit: fill;
-	/*background-size: contain;*/
 }
 
 .dolce-gallery-item:hover {
-	
+	cursor: pointer;
 }
 
 .catalog {
@@ -117,14 +116,12 @@ header nav ul li a {
 }
 
 .dolce-catalog-header {
-/*	height: 700px;*/
 	height: 100vh;
-/*	width: 100vw;*/
 	background: url('../img/catalog.png') no-repeat center center;
 	background-size: cover;
 }
 
-.dolce-catalog-faсtories-header {
+.dolce-catalog-factories-header {
 	margin-bottom: 36px;
 	font-size: 20px;
 	font-weight: bold;
@@ -164,12 +161,7 @@ aside {
 	height: 100%;
 }
 
-.news {
-	/*overflow: hidden;*/
-}
-
 .dolce-news-header {
-/*	height: 735px;*/
 	height: 100vh;
 	background: url('../img/news.png') no-repeat center center;
 	background-size: cover;
@@ -232,10 +224,6 @@ aside {
 	top: 0;
 	left: 50px;
 	display: flex;
-}
-
-.greentree {
-	
 }
 
 .dolce-greentree-header {
@@ -312,7 +300,6 @@ aside {
 
 .cite {
 	padding: 25px 0;
-	/*overflow: hidden;*/
 }
 
 .cite-header {
